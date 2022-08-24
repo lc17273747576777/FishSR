@@ -1,6 +1,10 @@
 # FishSR
+
 流程说明
-第一步：使用data_tool内Fisheye_simu工具，从高清图仿真出模仿鱼眼矫正的退化图，高清图建议下载开源的DIV2K等数据集合 第二步：使用data_tool内coner_crop工具，同时切分高低清图四角区域形成配对 第三步：开启训练，如上述说明，使用FishSR_project内的main.py脚本，详细内容请参阅论文
+
+第一步：使用data_tool内Fisheye_simu工具，从高清图仿真出模仿鱼眼矫正的退化图，高清图建议下载开源的DIV2K等数据集合; 
+第二步：使用data_tool内coner_crop工具，同时切分高低清图四角区域形成配对; 
+第三步：开启训练，如上述说明，使用FishSR_project内的main.py脚本，详细内容请参阅论文
 
 推理说明
 
